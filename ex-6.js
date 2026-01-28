@@ -41,7 +41,7 @@ async function getJohnData () {
     const getOrder = await getJohnOrders()
     console.log(getOrder)
    } catch (error) {
-    console.log ('ไม่ซักเซสสสส')
+    console.log (error)
    }
 }
 

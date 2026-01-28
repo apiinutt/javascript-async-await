@@ -16,10 +16,9 @@ let getJohnProfile = () => {
 async function getuserData () {
   try {
     const getSuccess = await getJohnProfile ()
-    console.log('ซักเซสสส')
+    console.log('getSuccess')
   } catch (error) {
-    const getfail = await getJohnProfile ()
-    console.log(getfail)
+    console.log(error)
   }
 }
 getuserData()
